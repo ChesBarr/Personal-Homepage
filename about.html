@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Chester Dapatnapo">
+<meta name="description" content="The About Page">
+<title>About Me</title>
+<link rel="icon" href="photos/minecraftgrasstxture.png" type="image/x-icon">
+<link rel="stylesheet" href="atesh.css" type="text/css">
+</head>
+
+<body id="aboutbg">
+<div class="menuBar">
+	<h3 class="bigName">About</h3>
+	<ul>
+		<li><a href="index.html">Go<span>_</span>Home</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="portfolio.html">Portfolio</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</div>
+
+<div class="titlesection">
+	<h1 id="abouthead">So you would like to know about me?</h1>
+</div>
+
+<div class="aboutmainsection">
+	
+	<div class="bubblesection">
+		<div class="bubble">
+			<h3>July 21, 2003</h3>
+			<p>
+				My sign is Cancer ♋︎<br><br>
+				
+				My place of birth is at<br>
+				Bernardino General Hospital located at <br>
+				Brgy. San Bartolome Novaliches Quezon City
+			</p>
+		</div>
+		<h3>&gt;&gt; My Birthdate</h3>
+	</div>
+	
+	<div class="bubblesection">
+		<div class="bubble">
+			<h3>Where I live</h3>
+			<p>
+				#11 Sinforosa St. Brgy. Bagbag Novaliches Quezon City
+				<br><br>
+				near QCU
+			</p>
+		</div>
+		<h3>&gt;&gt; Address</h3>
+	</div>
+	
+	<div class="bubblesection">
+		<div class="bubble">
+			<h3>I believe in Christ</h3>
+			<p>
+				I got baptized in Blessed Sacrament Parish Church, Talipapa, Novaliches, Quezon City
+				<br><br>
+				I am a Catholic, although I once joined a Born again church and converted, but I came back being a Catholic
+			</p>
+		</div>
+		<h3>&gt;&gt; Religion</h3>
+	</div>
+	
+	<div class="bubblesection">
+		<div class="bubble">
+			<h3>Currently in Bestlink College of the Philippines</h3>
+			<p>
+				pursuing the course; Information Technology
+				<br><br>
+				I went to AMA University in Senior highschool, where I pursued the strand ICT.<br>
+				I went to Dr. Carlos S. Lanting College in junior high and<br>
+				graduated in San Bartolome Highschool.
+				<br><br>
+				I graduated elementary in Placido Del Mundo Elementary School.
+			</p>
+		</div>
+		<h3>&gt;&gt; School</h3>
+	</div>
+	
+	<div class="bubblesection">
+		<div class="bubble">
+			<h3>I think I'm pretty good at certain things</h3>
+			<p>
+				Singing, Drawing, Gaming 
+			</p>
+		</div>
+		<h3>&gt;&gt; Talent</h3>
+	</div>
+	
+	<div class="bubblesection">
+		<div class="bubble">
+			<h3>These are the things I do most</h3>
+			<p>
+				Listening to Music, Gaming, Coding, Movies(if they're good), Hanging out with friends<br><br>
+				Musician/Band: Imagine Dragons(I used to love them much, but not anymore)
+			</p>
+		</div>
+		<h3>&gt;&gt; Hobbies</h3>
+	</div>
+	
+	<div class="bubblesection">
+		<div class="bubble">
+			<h3>These are the things I would die for</h3>
+			<p>
+				Coffee, <br><br>
+				Trap Nation, and other edm artists you most likely don't know.
+			</p>
+		</div>
+		<h3>&gt;&gt; Favorites</h3>
+	</div>
+	
+	<div class="bubblesection">
+		<div class="bubble">
+			<h3>my dreams</h3>
+			<p>
+				idk bro
+			</p>
+		</div>
+		<h3>&gt;&gt; My Dreams</h3>
+	</div>
+	
+	<div class="bubblesection">
+		<div class="bubble">
+			<img id="❤️" src="photos/ricked.gif" alt="getrekt">
+			<div class="invCrushRevealer">
+				<input type="text" id="answerReveal" placeholder="where did i graduate shs" autocomplete="off"/>
+				<button type="button" onclick="reveal();">submit</button>
+			</div>
+		</div>
+		<div id="crushreveal">
+			<h3>&gt;&gt; My crush</h3><p>❤️❤️</p>
+		</div>
+	</div>
+</div>
+<script>
+	function reveal(){
+		const crush = document.getElementById('❤️');
+		let answerReveal = document.getElementById('answerReveal');
+		
+		let answer = answerReveal.value;
+		
+		if(answer="ama"){
+			crush.src = "photos/kia2.jpg";
+			answerReveal.value = "met her during quizbee in AMA, we placed second";
+		}
+	}
+</script>
+</body>
+</html>
