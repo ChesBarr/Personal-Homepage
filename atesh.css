@@ -338,6 +338,11 @@
 	position: relative;
 	right: 100px;
 }
+#reward {
+	padding: 3% 0;
+	background-color: rgba(0,0,0,.5);
+	text-align: end;
+}
 /*** Gallery Page(gallery.html) ***/
 
 .maingallery {
